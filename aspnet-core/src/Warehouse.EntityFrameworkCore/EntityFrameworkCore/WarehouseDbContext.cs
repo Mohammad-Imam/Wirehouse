@@ -3,6 +3,8 @@ using Abp.Zero.EntityFrameworkCore;
 using Warehouse.Authorization.Roles;
 using Warehouse.Authorization.Users;
 using Warehouse.MultiTenancy;
+using Warehouse.Inventory.Aggregates;
+using Warehouse.Inventory.Indexex;
 
 namespace Warehouse.EntityFrameworkCore
 {
@@ -14,5 +16,13 @@ namespace Warehouse.EntityFrameworkCore
             : base(options)
         {
         }
+
+
+        public DbSet<Storehouse> Storehouses { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<StorehouseType> StorehouseType { get; set; }
+
+
     }
 }

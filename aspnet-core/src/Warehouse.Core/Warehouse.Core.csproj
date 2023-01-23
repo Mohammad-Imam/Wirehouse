@@ -20,4 +20,8 @@
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.4.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inventory\Entities\" />
+    <Folder Include="Inventory\Enums\" />
+  </ItemGroup>
 </Project>
