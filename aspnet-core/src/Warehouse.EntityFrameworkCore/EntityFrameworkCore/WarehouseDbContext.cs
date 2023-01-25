@@ -19,9 +19,9 @@ namespace Warehouse.EntityFrameworkCore
 
 
         public DbSet<Storehouse> Storehouses { get; set; }
-        public DbSet<City> City { get; set; }
-        public DbSet<Country> Country { get; set; }
-        public DbSet<StorehouseType> StorehouseType { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<StorehouseType> StorehouseTypes { get; set; }
 
 
     }
