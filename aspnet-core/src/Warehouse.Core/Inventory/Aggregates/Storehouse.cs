@@ -18,7 +18,9 @@ namespace Warehouse.Inventory.Aggregates
         public string Description { get; set; }
 
         public StorehouseType StorehouseType { get; set; }
+
         public City City { get; set; }
+
         public Country Country { get; set; }
     }
 }
